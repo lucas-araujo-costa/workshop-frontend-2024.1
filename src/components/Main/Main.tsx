@@ -15,7 +15,7 @@ export default function Main() {
   return (
     <div className='flex flex-wrap w-full'>
       {data.map((item) => {
-        return <div className='flex flex-col w-1/5 gap-3 m-10 items-center justify-between'>
+        return <div key={item.id} className='flex flex-col w-1/5 gap-3 m-10 items-center justify-between'>
           <h1 className='font-bold text-xl'>{item.name}</h1>
           <Image className='rounded-sm' src={item.image.medium} width={200} height={200} alt='' />
           <p className='text-xs'>{item.summary.replace(/(<([^>]+)>)/ig, '')}</p>
