@@ -15,8 +15,6 @@
 
 Clone da Netflix desenvolvida com a API da TVMaze
 
-- [Acesse o projeto](https://green-bank.vercel.app)
-
 ## Tecnologias
 
 Esse projeto foi desenvolvido com:
